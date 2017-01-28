@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GamePlugin.core</name>
+    </assembly>
+    <members>
+        <member name="T:Game.GameCorePlugin">
+            <summary>
+            Defines a Duality core plugin.
+            </summary>
+        </member>
+        <member name="T:Game.CameraController">
+            <summary>
+            Camera controller that supports following a target on a smooth curve and screen shake.
+            For screen shake to work, the <see cref="T:Duality.Components.Camera"/> needs to be on a child object of the
+            controller, rather than the controller object itself.
+            </summary>
+        </member>
+        <member name="P:Game.CameraController.CameraOffsetTransform">
+            <summary>
+            [GET / SET] The <see cref="T:Duality.Components.Transform"/> to which the actual <see cref="T:Duality.Components.Camera"/> object is parented.
+            Should be a direct child of this object.
+            </summary>
+        </member>
+    </members>
+</doc>
